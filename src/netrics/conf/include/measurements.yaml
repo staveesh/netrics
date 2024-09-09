@@ -114,3 +114,12 @@ speed-ookla:
   param:
     accept_license: true
     timeout: 80
+
+bottleneck-finder:
+  schedule: 
+    expression: "U * * * *"
+    hash: bottleneck
+  scheduling:
+    tenancy: 1
+  param:
+    pingType: udp

@@ -36,7 +36,7 @@ netrics-speed-ndt7 = "netrics.measurement.ndt7:main"
 netrics-speed-ookla = "netrics.measurement.ookla:main"
 netrics-ping = "netrics.measurement.ping:main"
 netrics-traceroute = "netrics.measurement.traceroute:main"
-netrics-tslp-bottleneck-finder = "netrics.measurement.tslp_bottleneck_finder:main"
+netrics-bottleneck-finder = "netrics.measurement.bottleneck_finder:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
